@@ -12,7 +12,7 @@ public class sqlDemo {
     {
         Connection c=null;
         try {
-           c= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF-8","root","root");
+           c= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF-8","root","rootroot");
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
